@@ -1,0 +1,124 @@
+body
+{
+    width:100%;
+    margin: 0 auto;
+    background-color: #e6e8f1;
+}
+header
+{
+    background-color: #3B5998;
+    height: 85px;
+     color:white;
+    
+}
+article
+{
+    width:75%;
+    
+    background-color:yellow;
+    margin:auto;
+}
+h1{
+    margin-top:20px;
+    margin:0;
+    font-size:50px;
+   
+    
+}
+#formularz p
+{
+    margin:0 0 15px;
+    font-size:15px;
+}
+
+section p
+{
+    font-weight:bold;
+    font-size: 25px;
+    padding-top:30px;
+}
+#h1
+{
+    margin-top:20px;
+}
+#left,
+#right
+
+{
+    width:50%;
+    float:left;
+}
+#h1
+{
+    width:40%;
+    float:left;
+}
+#login
+{
+    width:60%;
+    float:left;
+}
+
+#formularz p
+{
+    font-size:12px;
+    line-height: 16px;
+}
+{
+    font-size:5px;
+}
+
+/* formularz logowania */
+#logowanie1,
+#logowanie2,
+#logowanie3
+{
+    float:left;
+      margin-top:30px;
+    margin-left:10px;
+}
+#submit
+{
+    
+}
+#submitt
+{
+    background-color: #2ECC71;
+}
+
+
+
+
+/* Prawy formularz */
+#formularz h2
+{
+    margin:0;
+    font-size:50px;
+}
+
+
+#formularz {
+        width:260px; /* ustawiamy szerokość formularza */
+        margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:20px; /* dodajemy margines górny naszego formularza */
+}
+
+#formularz label {
+    display:block;/* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom:5px;/* dodajemy margines dolny */
+    font-weight:bold; /* pogrubiamy czcionkę */
+    text-transform: uppercase; /* zamieniamy wszystkie litery na duże */
+    font-size:12px; /* ustawiamy wielkość czcionki */
+    color:#555555; /* ustawiamy kolor czcionki */
+}
+
+#formularz input {
+	padding:15px; /* dodajemy margines wewnątrz naszego pola */
+	border-radius:5px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:25px; /* dodajemy margines dolny */
+	width:245px; /* ustalamy szerokość */
+}  
